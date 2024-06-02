@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;  
+}
+
+.main{
+    display: flex;
+    flex: 1; /* Займає доступний залишок простору */
+}
+
+
+.header, .footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+.img{
+    width: 250px;
+    height: 300px;
+}
